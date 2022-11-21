@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #121212;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-bottom: solid #363636;
+    height: 70px;
+} 
+
+.logo {
+    color: white;
+    font-family: monospace;
+    font-size: 40px
+}
+
+.wordContainer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+
+}
+
+.textinput {
+    width: 62px;
+    height: 62px;
+    margin-bottom: 4px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: uppercase;
+    border-color: gray;
+    background-color: #121212;
+    color: white;
+}
+
